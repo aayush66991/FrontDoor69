@@ -1,11 +1,7 @@
 import sys
 import socket
-from Flask import flask
-import Keep_Alive
 
-Keep_Alive()
-
-SERVER = ""
+SERVER = "100.20.92.101"
 PORT = 8080
 
 s = socket.socket()
@@ -15,7 +11,7 @@ s.bind((SERVER, PORT))
 s.listen(1)
 
 while True:
-    print(f'[*] Server listening to {SERVER}:{PORT}')
+    print(f'[*] Server listening to ...')
 
     client = s.accept()
     print(f'[+] client connected {client[1]}')
