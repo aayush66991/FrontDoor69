@@ -2,7 +2,7 @@ import sys
 import socket
 import subprocess
 
-SERVER = "192.168.1.4"
+SERVER = ""
 PORT = 8080
 
 s = socket.socket()
