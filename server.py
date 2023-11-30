@@ -1,12 +1,12 @@
 import sys
 import socket
 
-SERVER = "100.20.92.101"
-PORT = 8080
+#SERVER = "100.20.92.101"
+#PORT = 8080
 
 s = socket.socket()
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-s.bind((SERVER, PORT))
+#s.bind((SERVER, PORT))
 
 s.listen(1)
 
