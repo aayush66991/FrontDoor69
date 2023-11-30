@@ -5,7 +5,7 @@ import Keep_Alive
 
 Keep_Alive()
 
-SERVER = "192.168.1.4"
+SERVER = ""
 PORT = 8080
 
 s = socket.socket()
